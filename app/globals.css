@@ -71,8 +71,8 @@ h1 span { color: var(--green); }
 .bubble.assistant { color: #34443b; background: #f4f8f4; border: 1px solid #e8f0e9; border-top-left-radius: 4px; }
 .answer-label { display: block; margin-bottom: 6px; color: var(--green); font-size: 8px; font-weight: 800; letter-spacing: 1px; }
 .typing { display: flex; gap: 4px; align-items: center; padding: 18px 16px; }
-.typing span { width: 5px; height: 5px; background: #8eb8a0; border-radius: 50%; animation: bounce 1s infinite ease-in-out; }
-.typing span:nth-child(2) { animation-delay: .15s; }.typing span:nth-child(3) { animation-delay: .3s; }
+.typing span { width: 5px; height: 5px; background: #8eb8a0; border-radius: 50%; animation: bounce 1.6s infinite ease-in-out; }
+.typing span:nth-child(2) { animation-delay: .24s; }.typing span:nth-child(3) { animation-delay: .48s; }
 @keyframes bounce { 0%, 60%, 100% { transform: translateY(0); opacity: .55; } 30% { transform: translateY(-4px); opacity: 1; } }
 .composer-wrap { padding: 17px 23px 15px; border-top: 1px solid #edf0ed; background: #fdfefd; }
 .mode-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 9px; color: #7b8780; font-size: 8px; font-weight: 700; letter-spacing: 1.1px; }
